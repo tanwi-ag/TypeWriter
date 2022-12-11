@@ -155,3 +155,24 @@ void MainWindow::on_actionSuperScript_triggered(bool checked)
 }
 
 
+
+void MainWindow::on_actionDark_triggered()
+{
+
+
+        QPalette p = ui -> textEdit -> palette();
+        p.setColor(QPalette::Base, "#141414");
+        p.setColor(QPalette::Text, Qt::white);
+        ui -> textEdit -> setPalette(p);
+
+}
+
+
+void MainWindow::on_actionLight_triggered()
+{
+    QPalette p = ui -> textEdit -> palette();
+    p.setColor(QPalette::Base, "white");
+    p.setColor(QPalette::Text, Qt::black);
+    ui -> textEdit -> setPalette(p);
+}
+

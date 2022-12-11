@@ -58,6 +58,10 @@ private slots:
 
     void on_actionSuperScript_triggered(bool checked);
 
+    void on_actionDark_triggered();
+
+    void on_actionLight_triggered();
+
 private:
 
 
