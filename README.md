@@ -13,7 +13,7 @@ A basic notepad to type and save your work for later purpose
 - Mode: Dark,Light
 - About section
 
-##Difficulty
+## Difficulty
 - Working with about me section 
 
 ## Installation 
